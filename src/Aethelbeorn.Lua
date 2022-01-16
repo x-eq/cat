@@ -78,3 +78,5 @@ old = hookmetamethod(game, "__namecall", function(...)
 
     return old(...)
 end)
+
+return Library
