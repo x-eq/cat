@@ -15,7 +15,7 @@ local Environment = setmetatable({}, {
 local Players = Service.Players
 local Player = Players.LocalPlayer
 
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/edJT9EGX"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/uwuware-ui/main/main.lua"))()
 local Combat = Library:CreateWindow("Melee")
 local Misc = Library:CreateWindow("Misc")
 
